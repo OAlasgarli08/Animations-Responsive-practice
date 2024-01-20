@@ -35,7 +35,7 @@
 
 .list-r{
     display: inline-block;
-    margin-left: 1500px;
+    margin-left: 1050px;
 }
 
 .list-r li{
@@ -65,27 +65,27 @@
 }
 
 .header-bottom li:first-child{
-    padding-right: 500px;
+    padding-right: 250px;
 }
 
 .header-bottom li:nth-child(2){
-    padding-right: 20px;
+    padding-right: 15px;
 }
 
 .header-bottom li:nth-child(3){
-    padding-right: 20px;
+    padding-right: 15px;
 }
 
 .header-bottom li:nth-child(4){
-    padding-right: 20px;
+    padding-right: 15px;
 }
 
 .header-bottom li:nth-child(5){
-    padding-right: 20px;
+    padding-right: 15px;
 }
 
 .header-bottom li:nth-child(6){
-    padding-right: 700px;
+    padding-right: 500px;
 }
 
 .header-bottom li:first-child img{
@@ -107,6 +107,10 @@
     width: 100%;
 }
 
+.advantageous{
+    margin-top: 100px;
+}
+
 .col-2{
     margin-left: 200px;
     display: inline-block;
@@ -118,12 +122,99 @@
 
 .naxtel-plus{
     background-color: #ff9100;
+    height: 400px;
+    margin-top: 50px;
+    color: white;
 }
 
 .plus-l{
+    margin-top: 100px;
+    margin-left: 100px;
     display: inline-block;
 }
 
 .plus-l img{
-    width: 45px;
+    width: 80px;
+}
+
+.plus-r {
+    display: inline-block;
+}
+
+.plus-r img{
+    width: 900px;
+}
+
+
+.suggestions{
+    margin-top: 200px;
+}
+
+.suggestions h1{
+    text-align: center;
+    color: #898888  ;
+}
+
+
+.suggestions .col-3{
+    background-color: #ff9100;
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    margin-right: 90px;
+    color: white;
+}
+
+.suggestions .col-3:first-child{
+    margin-left: 100px;
+}
+
+.suggestions .col-3 img{
+    padding-top: 30px;
+    width: 100px;
+}
+
+.news{
+    background-color: #f8f8f8;
+}
+
+.news h2{
+    padding-top: 90px;
+    color: #898888;
+    padding-left: 870px;
+}
+
+.btn-outline-warning {
+    --bs-btn-color: #fcb75d;
+    --bs-btn-border-color: #fcb75d;
+    --bs-btn-hover-color: #ffffff;
+    --bs-btn-hover-bg: #fcb75d;
+    --bs-btn-hover-border-color: #ffc107;
+    --bs-btn-focus-shadow-rgb: 255,193,7;
+    --bs-btn-active-color: #ffffff;
+    --bs-btn-active-bg: #fcb75d;
+    --bs-btn-active-border-color: #fcb75d;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fcb75d;
+    --bs-btn-disabled-bg: transparent;
+    --bs-btn-disabled-border-color: #fcb75d;
+    --bs-gradient: none;
+}
+
+
+
+.footer-top{
+    background-color: #3c98a7;
+    color: white;
+    padding-top: 20px;
+}
+
+.footer-top li{
+    list-style: none;
+}
+
+.footer-bottom{
+    background-color: #2d727d;
+    color: white;
+    height: 50px;
 }
